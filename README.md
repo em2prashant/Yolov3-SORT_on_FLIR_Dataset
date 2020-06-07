@@ -41,9 +41,9 @@ Link: https://drive.google.com/file/d/1ICfcUHrX_Cd3yBGXYq2EE8HUF4-W94Rp/view?usp
 
 ## Yolov3 Detector weights:
 For Yolov3 @ 608:
-Link: 
+Link: https://drive.google.com/file/d/19x6B6oYB8Y4o3Sqp5YXAPBEI38yP2Uq9/view?usp=sharing
 
 For Yolov3 @ 416:
-Link: 
+Link: https://drive.google.com/file/d/1M2xr2aW0Zj1ghM91FF4EoBgwCQpRNz2p/view?usp=sharing
 
 ## How to run the code:
