@@ -11,8 +11,15 @@ The mAP obtained for the "YOLOv3" detector trained on the "FLIR Dataset" is tabu
 ||2|Car|0.76392|
 ||3|Dog|0.00420|
 
-The overall mAP obtained for 4 classes is: 0.44037 <br>
-The overall mAP obtained for the 3 dominant classes is: 0.58576 <br>
+|Model | Class Number | Class Name | Average Precision|
+|------|--------------|------------|------------------|
+||0|Person|0.49848|
+|Yolov3 @ 416|1|Bicycle|0.31797|
+||2|Car|0.70044|
+||3|Dog|0.00446|
+
+The overall mAP obtained for 4 classes is: 0.38033 <br>
+The overall mAP obtained for the 3 dominant classes is: 0.50563 <br>
 The reason for low AP for the "Dog" class is the low presence of this class in the dataset as it is evident from the desciption of the FLIR Dataset.
 
 ## Dataset:
