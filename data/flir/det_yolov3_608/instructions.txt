@@ -1,1 +1,0 @@
-Put the "det_yolov3_608.txt" file in this folder.
