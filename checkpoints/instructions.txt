@@ -1,0 +1,1 @@
+Keep the weights of the YOLOv3 model in this folder.
