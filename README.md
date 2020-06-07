@@ -24,7 +24,7 @@ The overall mAP obtained for the 3 dominant classes is: 0.50563 <br>
 The overall mAP obtained for 4 classes is: 0.44037 <br>
 The overall mAP obtained for the 3 dominant classes is: 0.58576 <br>
 
-The reason for low AP for the "Dog" class is the low presence of this class in the dataset as it is evident from the desciption of the FLIR Dataset.
+The reason for low AP for the "Dog" class is the low presence of this class in the dataset as it is evident from the desciption of the FLIR Dataset. Also, this repository uses "YOLOv3 @ 608" for detecting objects as well as tracking.
 
 ## Dataset:
 Link: https://www.flir.in/oem/adas/adas-dataset-form/ <br>
@@ -34,4 +34,7 @@ This dataset basically provides three types of thermal images: <br>
 3) video: Contains 4224 thermal images <br>
 
 The images present in the "train" and "val" folder were used as the "train" and "validation" sets respectively for training the "YOLOv3" detector and the mAP reported above is on the "validation" set of the FLIR Dataset. For the purpose of tracking the detected objects, the "video" folder of the FLIR Dataset is used.
+
+## How to run the code:
+
 
