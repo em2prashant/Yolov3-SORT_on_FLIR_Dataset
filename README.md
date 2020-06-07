@@ -5,9 +5,9 @@ In this repository, a <a href = "https://pjreddie.com/media/files/papers/YOLOv3.
 The mAP obtained for the "YOLOv3" detector trained on the "FLIR Dataset" is tabulated as follows:
 <table border = "1">
   <tr>
-    <td> Class Number </td>
-    <td> Class Name </td>
-    <td> Average Precision </td>
+    <th> Class Number </th>
+    <th> Class Name </th>
+    <th> Average Precision </th>
   </tr>
   <tr>
     <td>0</td>
@@ -30,7 +30,11 @@ The mAP obtained for the "YOLOv3" detector trained on the "FLIR Dataset" is tabu
     <td>0.00420</td>
   </tr>
 </table>
-  
+
+The overall mAP obtained for 4 classes is: 0.44037
+The overall mAP obtained for dominant 3 classes is: 0.58576
+
+The reason for low AP for the "Dog" class is the low presence of this class in the dataset.
 
 ## Dataset:
 Link: https://www.flir.in/oem/adas/adas-dataset-form/
