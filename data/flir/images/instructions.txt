@@ -1,1 +1,0 @@
-Put the 4224 images of the "video" folder of the FLIR Dataset in this folder.
