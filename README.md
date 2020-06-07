@@ -47,3 +47,11 @@ For Yolov3 @ 416:
 Link: https://drive.google.com/file/d/1M2xr2aW0Zj1ghM91FF4EoBgwCQpRNz2p/view?usp=sharing
 
 ## How to run the code:
+
+In order to run the code:
+
+1) The detections need to be saved to a text file which can be done by running the "YOLOv3 detector".<br>
+<code>python detect.py --image_folder data/flir/ --images_path data/flir/images/ --model_def config/yolov3-custom_flir.cfg --weights_path checkpoints/model_param_flir_608.pth --class_path data/flir/classes.names --text_file_path data/flir/det_yolov3_608/det_yolov3_608.txt --conf_thresh 0.8 --nms_thresh 0.5</code> <br>
+2) Once the detections have been stored in a text file, the next step is to run the "SORT tracker" code with the stored detections and save those images in a folder.<br>
+<code>python tracker.py --display True --path_to_detections data/flir/det_yolov3_608/det_yolov3_608.txt --path_to_images data/flir/images/ --path_to_store_trackers output/trackers/yolov3_608.txt --path_to_store_images_with_detections output/detections/</code>
+
