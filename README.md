@@ -5,7 +5,7 @@
 <a href = "https://github.com/jainpulkit54">Pulkit Jain</a>
 
 ## Description:
-In this repository, a <a href = "https://pjreddie.com/media/files/papers/YOLOv3.pdf">"YOLOv3: An Incremental Improvement"</a> detector has been trained on the open sourced <a href = "https://www.flir.in/oem/adas/adas-dataset-form/">FLIR Dataset</a>. Apart from training a detector, the task was also to track the detected objects which was carried out using the <a href = "https://arxiv.org/pdf/1602.00763.pdf">"Simple Online and Realtime Tracking"</a> algorithm.
+In this repository, a <a href = "https://pjreddie.com/media/files/papers/YOLOv3.pdf">"YOLOv3: An Incremental Improvement"</a> detector has been trained on the open sourced <a href = "https://www.flir.in/oem/adas/adas-dataset-form/">FLIR Dataset</a>. Apart from training the detector, the task was also to track the detected objects which was carried out using the <a href = "https://arxiv.org/pdf/1602.00763.pdf">"Simple Online and Realtime Tracking"</a> algorithm.
 The mAP obtained for the "YOLOv3" detector trained on the "FLIR Dataset" is tabulated as follows:
 
 |Model | Class Number | Class Name | Average Precision|
