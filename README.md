@@ -1,8 +1,8 @@
 # Yolov3+SORT_on_FLIR_Dataset
 
 ## Authors:
-<a href = "www.github.com/em2prashant">Prashant Agrawal</a><br>
-<a href = "www.github.com/jainpulkit54">Pulkit Jain</a>
+<a href = "https://github.com/em2prashant">Prashant Agrawal</a><br>
+<a href = "https://github.com/jainpulkit54">Pulkit Jain</a>
 
 ## Description:
 In this repository, a <a href = "https://pjreddie.com/media/files/papers/YOLOv3.pdf">"YOLOv3: An Incremental Improvement"</a> detector has been trained on the open sourced <a href = "https://www.flir.in/oem/adas/adas-dataset-form/">FLIR Dataset</a>. Apart from training a detector, the task was also to track the detected objects which was carried out using the <a href = "https://arxiv.org/pdf/1602.00763.pdf">"Simple Online and Realtime Tracking"</a> algorithm.
