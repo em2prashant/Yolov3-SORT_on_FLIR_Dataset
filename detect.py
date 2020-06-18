@@ -3,7 +3,6 @@ import time
 import torch
 import argparse
 import numpy as np
-
 import torchvision.transforms as transforms
 from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
