@@ -1,7 +1,7 @@
 # Yolov3+SORT_on_FLIR_Dataset
 
 ## Authors:
-<a href = "www.github.com/em2prashant">Prashant Agrawal</a>
+<a href = "www.github.com/em2prashant">Prashant Agrawal</a><br>
 <a href = "www.github.com/jainpulkit54">Pulkit Jain</a>
 
 ## Description:
